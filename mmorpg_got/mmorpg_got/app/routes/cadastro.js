@@ -1,9 +1,9 @@
-module.exports = function(app){
-    app.get('/cadastro', function(req, res){
-        app.app.controllers.cadastro.cadastro(app, req, res);
+module.exports = function(application){
+    application.get('/cadastro', function(req, res){
+        application.app.controllers.cadastro.cadastro(application, req, res);
     })
 
-    app.post('/cadastrar', function(req, res){
-        app.app.controllers.cadastro.cadastrar(app, req, res);
+    application.post('/cadastrar', function(req, res){
+        application.app.controllers.cadastro.cadastrar(application, req, res);
     })
 }

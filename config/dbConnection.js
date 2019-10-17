@@ -1,3 +1,4 @@
+/* importar o mongodb */
 var mongo = require('mongodb');
 
 var connMongoDB = function(){
