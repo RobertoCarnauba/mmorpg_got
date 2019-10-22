@@ -1,4 +1,5 @@
 function UsuariosDAO(connection){
+	//usado apenas dentro da função, não funfa fora por convenção 
 	this._connection = connection();
 }
 
